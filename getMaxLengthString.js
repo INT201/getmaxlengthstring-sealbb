@@ -2,6 +2,7 @@ const { template } = require('@babel/core')
 
 function getMaxLengthString(arrayOfString) {
   //code here
+<<<<<<< HEAD
   // if(arrayOfString===(null || undefined)){
   //   return undefined
   // }else if(arrayOfString!==null||undefined){
@@ -9,6 +10,8 @@ function getMaxLengthString(arrayOfString) {
   //   let max = Math.max(...count)
   //   return arrayOfString.filter(word => word.length===max)
   // }
+=======
+>>>>>>> 9f0ff9a1ce9488831ebe6e7c5b01ab52f5e6c56b
   if(!arrayOfString){
      return undefined
   }
@@ -21,4 +24,7 @@ function getMaxLengthString(arrayOfString) {
   return arrayOfString.filter(word => word.length===maxL)
 }
 module.exports = getMaxLengthString
+<<<<<<< HEAD
 console.log(getMaxLengthString(['hello', 'hi', 'hey']))
+=======
+>>>>>>> 9f0ff9a1ce9488831ebe6e7c5b01ab52f5e6c56b
